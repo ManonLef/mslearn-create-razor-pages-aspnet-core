@@ -60,7 +60,7 @@
         <td>@pizza.Size</td>
         <td>@(pizza.IsGlutenFree ? "✔️" : string.Empty)</td>
         <td>
-          <form asp-page-handler="Delete" asp-route-id="@pizza.Id" method="post">
+          <form method="post" asp-page-handler="Delete" asp-route-id="@pizza.Id">
             <button class="btn btn-danger">Delete</button>
           </form>
         </td>
@@ -70,5 +70,5 @@
 </table>
 
 @section Scripts {
-  <partial name="_ValidationScriptsPArtial" ®/>
+  <partial name="_ValidationScriptsPartial" />
 }
