@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
     "Contoso"
-  ]
+  ],
+  "editor.suggest.showReferences": true,
+  "dotnet.codeLens.enableReferencesCodeLens": false
 }
